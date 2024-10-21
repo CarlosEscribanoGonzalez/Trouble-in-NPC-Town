@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Trouble In NPC Town</title>
+		<meta charset="UTF-8">
+		<style>
+			*{
+				font-size: 30px;
+			}
+		</style>
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js">
+		</script>
+		<script src="./Scripts/script.js"></script>
+	</head>
+
+	<body>
+		<div id = "container"></div>
+		<div id = "login">
+			<p id = "incorrectData" style = "color:red; display: none"><strong>Incorrect data</strong></p>
+		<p id = "nameTaken" style = "color:red; display: none"><strong>That username is already taken</strong></p>
+			<h4>Login:</h4>
+			<form id="registerForm">
+				<label for="userName">User name:</label>
+				<input type="text" id="userNamer" name="userName" required>
+		
+				<label for="password">Password:</label>
+				<input type="password" id="passwordr" name="password" required>
+		
+				<button type="submit">Login</button>
+			</form>
+			<h4>Create account:</h4>
+			<form id="createAccountForm">
+				<label for="userName">User name:</label>
+				<input type="text" id="userNamec" name="userName" required>
+		
+				<label for="password">Password:</label>
+				<input type="password" id="passwordc" name="password" required>
+		
+				<button type="submit">Create account</button>
+			</form>
+		</div>
+
+		<div id = "UserInfo" style = "display: none">
+			<p style = "display: inline;"><strong>User: </strong></p>
+			<p id = "UserName" style = "display: inline;">Username</p> 
+			<br><br>
+			<p style = "display: inline;"><strong>Games played: </strong></p>
+			<p id = "NumGames" style = "display: inline;">numGames</p>	
+			<br><br>
+			<p style = "display: inline;"><strong>Current players: </strong></p>
+			<p id = "CurrentPlayers" style = "display: inline;">currPlayers</p>
+			<br><br>
+			<button id = "logout" onclick = "Logout()" style = "display: inline;">Logout</button>
+			<button id = "deleteAccount" onclick = "DeleteAccount()" style = "display: inline;">Delete account</button>				
+		</div>
+		
+		<div id = "Confirmation" style = "display: none">
+			<p><strong>Do you really want to delete your account? This action can't be undone </strong></p>
+			<button id = "Confirm" onclick = "Confirm()" style = "display: inline;">Confirm</button>
+			<button id = "Cancel" onclick = "Cancel()" style = "display: inline;">Cancel</button>				
+		</div>
+
+		<script src = "./node_modules/phaser/dist/phaser.js"></script>
+		<script src = "./Scripts/MainMenu.js"></script>
+		<script src = "./Scripts/Credits.js"></script>
+		<script src = "./Scripts/NPCNumber.js"></script>
+		<script src = "./Scripts/NPC.js"></script>
+		<script src = "./Scripts/NPC2.js"></script>
+		<script src = "./Scripts/Missions.js"></script>
+		<script src = "./Scripts/MissionsOnline.js"></script>
+		<script src = "./Scripts/Player.js"></script>
+		<script src = "./Scripts/Player2.js"></script>
+		<script src = "./Scripts/PlayerOnline.js"></script>
+		<script src = "./Scripts/Player2Online.js"></script>
+		<script src = "./Scripts/Game.js"></script>
+		<script src = "./Scripts/GameOnline.js"></script>
+		<script src = "./Scripts/PauseMenu.js"></script>
+		<script src = "./Scripts/InfoMenu.js"></script>
+		<script src = "./Scripts/InfoMenuOnline.js"></script>
+		<script src = "./Scripts/InfoMenuP1Online.js"></script>
+		<script src = "./Scripts/GameEndedMenu.js"></script>
+		<script src = "./Scripts/GameEndedMenuOnline.js"></script>
+		<script src = "./Scripts/CustomizationP1Menu.js"></script>
+		<script src = "./Scripts/CustomizationP1MenuOnline.js"></script>
+		<script src = "./Scripts/CustomizationP2Menu.js"></script>
+		<script src = "./Scripts/CustomizationP2MenuOnline.js"></script>
+		<script src = "./Scripts/Init.js"></script>
+	</body>
+<html>
