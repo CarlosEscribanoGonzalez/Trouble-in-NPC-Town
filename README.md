@@ -9,10 +9,12 @@ An offline local multiplayer version of the game that can be played directly fro
 <p align = "center">
   <img width="708" height="400" alt="Player 1 customization" src="https://github.com/user-attachments/assets/718702ac-c2aa-4f99-ae52-f863d5fc89b5" />
 </p>
-* **Player 2:** choose a weapon and receive three hints about Player 1, one of them written by Player 1
+
+* **Player 2:** choose a weapon and receive three hints about Player 1, one of them written by Player 1 himself
 <p align = "center">
   <img width="708" height="400" alt="Player 2 weapon selection" src="https://github.com/user-attachments/assets/56545bd5-a446-4794-9829-66ca3e0d25c7" />
 </p>
+
 * When both players are ready the game starts. Player 1 has to blend in with the many NPCs in the scene, and Player 2 must find them and shoot them dead
 * The game ends if Player 2 runs out of bullets, Player 1 is killed or Player 1 completes their mission
 * **Controls:** WASD (Player 1) and left click (Player 2)
