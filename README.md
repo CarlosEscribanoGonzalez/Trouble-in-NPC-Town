@@ -1,0 +1,43 @@
+## Overview
+Asymmetric 2-player browser game made with Phaser, where one player pretends to be an NPC and the other has to find and shoot them. 
+The game uses a **Spring Boot** server with a **REST API** for user accounts and **WebSockets** for the real-time game logic.
+
+An offline local multiplayer version of the game is available on [itch.io](https://karesito.itch.io/trouble-in-npc-town).
+
+## Features
+**REST API: user accounts**
+* Account creation, login and deletion
+* User data persisted on the server, including stats such as the number of games played and victories
+* Counter of players currently connected
+
+**WebSockets: online multiplayer**
+* Automatic assignment of the Player 1 and Player 2 roles to the first two clients that connect
+* Both players are synchronized before the match starts, waiting for each other to finish their setup
+* Real-time exchange of movement, shots and NPC state between the two players
+* The server checks the end conditions and notifies both clients when the game is over
+
+**Gameplay**
+* Character customization with hats, tops and bottoms
+* Eight different secret missions for Player 1
+* Two different weapons for player 2
+* Fake hint system that forces Player 2 to deduce which of the 3 received clues has been written by Player 1
+* Randomly generated crowd of NPCs on every match, with a configurable amount of them 
+
+## How to play
+* **Player 1:** customize your character, receive a mission and write a fake hint about yourself
+* **Player 2:** choose a weapon and receive three hints about Player 1, one of them written by Player 1
+* When both players are ready the game starts. Player 1 has to blend in with the many NPCs in the scene, and Player 2 must find them and shoot them dead
+* The game ends if Player 2 runs out of bullets, Player 1 is killed or Player 1 completes their mission
+* **Controls:** WASD (Player 1) and left click (Player 2)
+
+## Technologies
+* JavaScript
+* Phaser
+* Java
+* Spring Boot (REST API and WebSockets)
+
+## How to run the game
+1. Open the root folder of the project in a command prompt
+2. Run `mvnw.cmd spring-boot:run` and wait for the server to start
+3. On the host computer, open `localhost:8080` in the browser
+4. On the other player's computer, open `IP:8080` in the browser, where `IP` is the host's IP address (visible with the `ipconfig` command)
