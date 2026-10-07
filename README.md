@@ -2,7 +2,7 @@
 Asymmetric 2-player browser game made with Phaser, where one player pretends to be an NPC and the other has to find and shoot them. 
 The game uses a **Spring Boot** server with a **REST API** for user accounts and **WebSockets** for the real-time game logic.
 
-An offline local multiplayer version of the game is available on [itch.io](https://karesito.itch.io/trouble-in-npc-town).
+An offline local multiplayer version of the game that can be played directly from the browser is available on [itch.io](https://karesito.itch.io/trouble-in-npc-town).
 
 ## How to play
 * **Player 1:** customize your character, receive a mission and write a fake hint about yourself
