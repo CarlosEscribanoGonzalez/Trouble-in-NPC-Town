@@ -22,6 +22,11 @@ An offline local multiplayer version of the game is available on [itch.io](https
 * Two different weapons for player 2
 * Fake hint system that forces Player 2 to deduce which of the 3 received clues has been written by Player 1
 * Randomly generated crowd of NPCs on every match, with a configurable amount of them 
+<p align = "center">
+  <img width="708" height="400" alt="Player 1 customization" src="https://github.com/user-attachments/assets/718702ac-c2aa-4f99-ae52-f863d5fc89b5" />
+  <img width="708" height="400" alt="Player 2 weapon selection" src="https://github.com/user-attachments/assets/56545bd5-a446-4794-9829-66ca3e0d25c7" />
+  <img width="708" height="400" alt="Gameplay" src="https://github.com/user-attachments/assets/656f1d4d-095b-4266-90e2-82f010b95ed8" />
+</p>
 
 ## How to play
 * **Player 1:** customize your character, receive a mission and write a fake hint about yourself
