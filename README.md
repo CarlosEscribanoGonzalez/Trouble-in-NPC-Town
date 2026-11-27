@@ -8,8 +8,7 @@ The game uses a **Spring Boot** server with a **REST API** for user accounts and
 
 An offline local multiplayer version of the game that can be played directly from the browser is available on [itch.io](https://karesito.itch.io/trouble-in-npc-town).
 
-## Features
-### How to play
+## How to play
 * **Player 1:** customize your character, receive a mission and write a fake hint about yourself
 <p align = "center">
   <img width="708" height="400" alt="Player 1 customization" src="https://github.com/user-attachments/assets/718702ac-c2aa-4f99-ae52-f863d5fc89b5" />
@@ -24,7 +23,7 @@ An offline local multiplayer version of the game that can be played directly fro
 * The game ends if Player 2 runs out of bullets, Player 1 is killed or Player 1 completes their mission
 * **Controls:** WASD (Player 1) and left click (Player 2)
 
-### Implementation
+## Features
 **REST API: user accounts**
 * Account creation, login and deletion
 * User data persisted on the server, including stats such as the number of games played and victories
