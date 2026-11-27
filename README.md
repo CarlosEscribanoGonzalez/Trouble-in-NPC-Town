@@ -1,10 +1,15 @@
+## Project Information
+* **Creation date**: December 24, 2023
+* **Context:** Bachelor's Degree Project
+
 ## Overview
 Asymmetric 2-player browser game made with Phaser, where one player pretends to be an NPC and the other has to find and shoot them. 
 The game uses a **Spring Boot** server with a **REST API** for user accounts and **WebSockets** for the real-time game logic.
 
 An offline local multiplayer version of the game that can be played directly from the browser is available on [itch.io](https://karesito.itch.io/trouble-in-npc-town).
 
-## How to play
+## Features
+### How to play
 * **Player 1:** customize your character, receive a mission and write a fake hint about yourself
 <p align = "center">
   <img width="708" height="400" alt="Player 1 customization" src="https://github.com/user-attachments/assets/718702ac-c2aa-4f99-ae52-f863d5fc89b5" />
@@ -19,7 +24,7 @@ An offline local multiplayer version of the game that can be played directly fro
 * The game ends if Player 2 runs out of bullets, Player 1 is killed or Player 1 completes their mission
 * **Controls:** WASD (Player 1) and left click (Player 2)
 
-## Features
+### Implementation
 **REST API: user accounts**
 * Account creation, login and deletion
 * User data persisted on the server, including stats such as the number of games played and victories
@@ -47,7 +52,7 @@ An offline local multiplayer version of the game that can be played directly fro
 * Java
 * Spring Boot (REST API and WebSockets)
 
-## How to run the game
+## Usage
 1. Open the root folder of the project in a command prompt
 2. Run `mvnw.cmd spring-boot:run` and wait for the server to start
 3. On the host computer, open `localhost:8080` in the browser
